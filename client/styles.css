@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(220, 201, 182);
+  font-family: "Just For Fun";
+}
+
+#aboutSection {
+
+}
+#aboutSummary {
+  font-size: 23px;
+  width: 600px;
+}
+
+.btn {
+  background-color: rgb(163, 145, 113);
+}
+
+.btn:hover {
+  background-color: rgb(109, 76, 61);
+  transition: 0.7s;
+}
+
+.btn:active {
+  background-color: rgb(114, 125, 113);
+}
+#vanGogh {
+  scroll-margin-left: 20px;
+}
+
+#videoOne {
+  margin-right: 20px;
+}
+
+#contactSentence {
+  font-size: 23px;
+}
+
+#contactForm {
+  font-size: 20px;
+}
