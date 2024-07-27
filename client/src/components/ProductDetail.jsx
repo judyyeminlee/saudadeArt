@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const ProductDetail = ({ products }) => {
   const { id } = useParams();

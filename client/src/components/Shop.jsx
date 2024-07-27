@@ -3,31 +3,7 @@ import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const products = [
-  {
-    id: 1,
-    name: "Handcrafted Necklace",
-    price: 29.99,
-    image_url: "https://example.com/image1.jpg",
-    description: "A beautiful handcrafted necklace.",
-  },
-  {
-    id: 2,
-    name: "Artistic Painting",
-    price: 99.99,
-    image_url: "https://example.com/image2.jpg",
-    description: "An artistic painting to beautify your home.",
-  },
-  {
-    id: 3,
-    name: "Custom Mug",
-    price: 15.99,
-    image_url: "https://example.com/image3.jpg",
-    description: "A custom mug with personalized design.",
-  },
-];
-
-const Shop = () => {
+const Shop = ({ products }) => {
   const { addToCart } = useContext(CartContext);
 
   return (
@@ -45,18 +21,18 @@ const Shop = () => {
               <div className='card-body'>
                 <h5 className='card-title'>{product.name}</h5>
                 <p className='card-text'>${product.price}</p>
+                <Link
+                  to={`/product/${product.id}`}
+                  className='btn btn-primary me-2'
+                >
+                  View Details
+                </Link>
                 <button
-                  className='btn btn-primary'
+                  className='btn btn-secondary'
                   onClick={() => addToCart(product)}
                 >
                   Add to Cart
                 </button>
-                <Link
-                  to={`/product/${product.id}`}
-                  className='btn btn-secondary ms-2'
-                >
-                  View Details
-                </Link>
               </div>
             </div>
           </div>
