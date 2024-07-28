@@ -14,22 +14,22 @@ import Footer from "./components/Footer";
 
 function App() {
   const [products, setProducts] = useState([
-    {
-      name: "custom pet portrait",
-      price: 29.99,
-      img_url:
-        "https://benlenovitz.com/cdn/shop/products/New_Pack_Portrait_White_Frame_3x_0eb08a14-dde8-413e-8610-5fb5005e90f6.jpg?v=1666787159&width=1296",
-    },
-    {
-      name: "custom canvas tote",
-      price: 99.99,
-      image_url: "https://example.com/images/painting.jpg",
-    },
-    {
-      name: "custom canvas pouch",
-      price: 15.99,
-      image_url: "https://example.com/images/mug.jpg",
-    },
+    // {
+    //   name: "custom pet portrait",
+    //   price: 29.99,
+    //   // img_url:
+    //     // "/ImagesVideos/Mock Painting.jpeg",
+    // },
+    // {
+    //   name: "custom canvas tote",
+    //   price: 99.99,
+    //   // img_url: "/ImagesVideos/Beige Tote.jpg",
+    // },
+    // {
+    //   name: "custom canvas pouch",
+    //   price: 15.99,
+    //   //img_url: "https://example.com/images/mug.jpg",
+    // },
   ]);
 
   useEffect(() => {
@@ -44,12 +44,9 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div className="navBarLine">
         {/* <Header/ > */}
-        <nav
-          id="navBar"
-          className="navbar navbar-expand-lg navbar-light"
-        >
+        <nav id="navBar" className="navbar navbar-expand-lg navbar-light">
           <Link className="navbar-brand" to="/">
             saudade art
           </Link>
@@ -74,7 +71,7 @@ function App() {
                 <Link className="nav-link" to="/work">
                   work
                 </Link>
-                </li>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">
                   let&apos;s talk

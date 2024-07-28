@@ -3,12 +3,148 @@ body {
   font-family: "Just For Fun";
 }
 
-#aboutSection {
-
+.navBarLine {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
+
+#mockToteOne {
+  border-radius: 25px;
+}
+
+#mockToteTwo {
+  border-radius: 25px;
+  position: relative;
+  right: 60px;
+  top: 140px;
+}
+
+#mockToteThree {
+  border-radius: 25px;
+  position: relative;
+  right: 100px;
+  top: 55px;
+}
+
+#goldiePicture {
+  border-radius: 25px;
+}
+
+#goldieDrawing {
+  border-radius: 25px;
+}
+
+#goldieToteTest {
+  border-radius: 25px;
+}
+
+#aboutSection {
+  display: flex;
+  justify-content: center;
+}
+
 #aboutSummary {
   font-size: 23px;
   width: 600px;
+  float: left;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
+#vanGogh {
+  scroll-margin-right: 20px;
+  width: 300px;
+  height: auto;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#videoOne {
+  position: absolute;
+  height: 500px;
+}
+
+#videoTwo {
+  position: absolute;
+  height: 500px;
+  left: 500px;
+}
+
+#mushroomWip3 {
+  width: 400px;
+  height: 360px;
+  position: absolute;
+  top: 700px;
+}
+
+#mushroomWip {
+  width: 320px;
+  height: 340px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 950px;
+  left: 330px;
+}
+
+#mushroomWip2 {
+  width: 300px;
+  height: 420px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 670px;
+  left: 610px;
+}
+
+#mushroomFinal {
+  width: 425px;
+  height: 590px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 820px;
+  left: 860px;
+}
+#eyes {
+  width: 700px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1300px;
+  left: 110px;
+}
+
+#daydreams {
+  width: 480px;
+  height: 620px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1420px;
+  right: 120px;
+}
+
+#pandemic {
+  width: 440px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1830px;
+  left: 80px;
+}
+
+#tattoo {
+  width: 400px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 3000px;
+  left: 200px;
 }
 
 .btn {
@@ -23,13 +159,6 @@ body {
 .btn:active {
   background-color: rgb(114, 125, 113);
 }
-#vanGogh {
-  scroll-margin-left: 20px;
-}
-
-#videoOne {
-  margin-right: 20px;
-}
 
 #contactSentence {
   font-size: 23px;
@@ -37,4 +166,35 @@ body {
 
 #contactForm {
   font-size: 20px;
+}
+
+button.accordionButton {
+  font-size: 18px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 0.5px solid rgb(163, 145, 113);
+  background-color: rgb(220, 201, 182);
+  border-radius: 25px;
+}
+
+.accordion-header {
+  background-color: rgb(220, 201, 182);
+  border: none;
+}
+
+div.accordion-body {
+  background-color: rgb(220, 201, 182);
+}
+
+.accordionButton:hover {
+  background-color: rgb(163, 145, 113);
+}
+
+.accordion-item {
+  border: none;
+}
+
+#productImage {
+  width: 60%;
+  height: auto;
 }

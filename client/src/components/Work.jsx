@@ -6,63 +6,59 @@ const Work = () => {
         Pen
       </button>
       <video
-        controls
-        autoplay
+        autoPlay
         loop
+        muted
         src="/ImagesVideos/Video Part 1.mp4"
         id="videoOne"
       ></video>
       <video
-        controls
-        autoplay
+        autoPlay
         loop
+        muted
         src="/ImagesVideos/Video Part 2.mp4"
+        id="videoTwo"
       ></video>
       <br />
       <img
         src={window.location.origin + "/ImagesVideos/Mushroom WIP3.JPG"}
-        width={400}
-        height={480}
         alt="mushroomWIP3"
-        id="mushroom3"
+        id="mushroomWip3"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Mushroom WIP.JPG"}
-        width={440}
-        height={480}
         alt="mushroomWIP"
+        id="mushroomWip"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Mushroom WIP2.JPG"}
-        width={400}
-        height={520}
         alt="mushroomWIP2"
+        id="mushroomWip2"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Mushroom Final.jpeg"}
-        width={440}
-        height={520}
         alt="mushroomFinal"
+        id="mushroomFinal"
       />
-      <br />
       <img
         src={window.location.origin + "/ImagesVideos/Daydreams Final.jpeg"}
-        width={400}
-        height={520}
         alt="daydreams"
-        id="penStart"
+        id="daydreams"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Pandemic.JPG"}
-        width={440}
-        height={520}
         alt="pandemic"
+        id="pandemic"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Tattoo Final.jpeg"}
-        width={400}
-        height={520}
         alt="tattoo"
+        id="tattoo"
+      />
+      <img
+        src={window.location.origin + "/ImagesVideos/Eyes Final.jpeg"}
+        alt="eyes"
+        id="eyes"
       />
       <br />
       <img
@@ -76,6 +72,19 @@ const Work = () => {
         width={650}
         height={400}
         alt="vDay"
+      />
+      <br />
+      <img
+        src={window.location.origin + "/ImagesVideos/Tiger Tote WIP2.JPG"}
+        width={510}
+        height={490}
+        alt="tigerTote"
+      />
+      <img
+        src={window.location.origin + "/ImagesVideos/Tiger Tote WIP.jpeg"}
+        width={550}
+        height={400}
+        alt="tigerToteZoom"
       />
     </div>
   );
