@@ -4,7 +4,7 @@ const About = () => {
     <div>
       <h1>about saudade art</h1>
       <br />
-      <div id="aboutSection" className="clearfix">
+      <div id="aboutSection">
         <p id="aboutSummary">
           "Saudade" (sao-dahj) is a Portuguese word that describes the feeling
           of melancholic longing and nostalgia for a beloved someone or

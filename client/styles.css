@@ -198,3 +198,11 @@ div.accordion-body {
   width: 60%;
   height: auto;
 }
+
+.form-control {
+  background-color: rgb(229, 222, 214);
+}
+
+.form-control:active {
+  background-color: rgb(229, 222, 214);
+}

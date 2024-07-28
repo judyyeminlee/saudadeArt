@@ -31,7 +31,12 @@ const Home = () => {
         id="mockToteThree"
       />
       <br />
-      <p>featured friends</p>
+      <p>
+        featured friends Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Illo, illum accusantium corrupti, architecto in mollitia
+        praesentium fuga, temporibus natus aut reiciendis harum voluptates ipsa
+        repellat assumenda suscipit perspiciatis officiis blanditiis?
+      </p>
       <img
         src={window.location.origin + "/ImagesVideos/Goldie Picture.jpeg"}
         width={400}
@@ -53,6 +58,12 @@ const Home = () => {
         alt="goldieToteTest"
         id="goldieToteTest"
       />
+      <p>
+        featured friends Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Illo, illum accusantium corrupti, architecto in mollitia
+        praesentium fuga, temporibus natus aut reiciendis harum voluptates ipsa
+        repellat assumenda suscipit perspiciatis officiis blanditiis?
+      </p>
     </div>
   );
 };
