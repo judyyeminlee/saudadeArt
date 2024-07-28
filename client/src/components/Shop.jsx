@@ -1,7 +1,11 @@
-// src/components/Shop.jsx
-import PropTypes from "prop-types";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Shop = ({ products }) => {
+  const { addToCart } = useContext(CartContext);
+
   return (
     <div>
       <h1>shop</h1>
@@ -14,10 +18,21 @@ const Shop = ({ products }) => {
                 className="card-img-top"
                 alt={product.name}
               />
-              <div className="card-body">
-                <h5 className="card-title">{product.name}</h5>
-                <p className="card-text">${product.price}</p>
-                <button className="btn">add to cart</button>
+              <div className='card-body'>
+                <h5 className='card-title'>{product.name}</h5>
+                <p className='card-text'>${product.price}</p>
+                <Link
+                  to={`/product/${product.id}`}
+                  className='btn btn-primary me-2'
+                >
+                  View Details
+                </Link>
+                <button
+                  className='btn btn-secondary'
+                  onClick={() => addToCart(product)}
+                >
+                  Add to Cart
+                </button>
               </div>
             </div>
           </div>
@@ -25,16 +40,6 @@ const Shop = ({ products }) => {
       </div>
     </div>
   );
-};
-
-Shop.propTypes = {
-  products: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      price: PropTypes.number.isRequired,
-      image_url: PropTypes.string,
-    })
-  ).isRequired,
 };
 
 export default Shop;
