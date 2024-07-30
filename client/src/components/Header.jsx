@@ -57,7 +57,7 @@ function Header() {
           </ul>
           <div className='navbar-nav'>
             <li className='nav-item'>
-              <button className='btn btn-primary' onClick={clearCart}>
+              <button className='btn btn-primary' id="checkoutBtn" onClick={clearCart}>
                 Checkout ({cart.length})
               </button>
             </li>

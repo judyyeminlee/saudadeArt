@@ -5,6 +5,7 @@ const Work = () => {
       {/* <button type='button' className='btn btn-link'>
         Pen
       </button> */}
+      <div className="mainWorkPage">
       <video
         autoPlay
         loop
@@ -63,42 +64,26 @@ const Work = () => {
       <br />
       <img
         src={window.location.origin + "/ImagesVideos/Nude Sketches.JPG"}
-        width={650}
-        height={520}
-        alt='nudeSketches'
+        alt="nudeSketches"
+        id="nudeSketches"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Valentine's Day.jpeg"}
-        width={650}
-        height={400}
-        alt='vDay'
+        alt="vDay"
+        id="vDay"
       />
       <br />
       <img
         src={window.location.origin + "/ImagesVideos/Tiger Tote WIP2.JPG"}
-        width={510}
-        height={490}
         alt="tigerTote"
+        id="tigerTote"
       />
       <img
         src={window.location.origin + "/ImagesVideos/Tiger Tote WIP.jpeg"}
-        width={550}
-        height={400}
         alt="tigerToteZoom"
+        id="tigerToteZoom"
       />
-      <br />
-      <img
-        src={window.location.origin + "/ImagesVideos/Tiger Tote WIP2.JPG"}
-        width={510}
-        height={490}
-        alt="tigerTote"
-      />
-      <img
-        src={window.location.origin + "/ImagesVideos/Tiger Tote WIP.jpeg"}
-        width={550}
-        height={400}
-        alt="tigerToteZoom"
-      />
+      </div>
     </div>
   );
 };

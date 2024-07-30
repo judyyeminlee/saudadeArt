@@ -1,71 +1,62 @@
+import React from "react";
+import "./Home.css"; // Assuming you have a CSS file for custom styles
+
 const Home = () => {
   return (
-    <div class="homeImages">
+    <div className="container mt-5">
       <h1>saudade art</h1>
-      <p>custom handpainted gifts</p>
-      <img
-        src={
-          window.location.origin + "/ImagesVideos/Mock Embroidered Tote.jpeg"
-        }
-        width={390}
-        height={260}
-        alt="mockToteOne"
-        id="mockToteOne"
-      />
-      <img
-        src={
-          window.location.origin + "/ImagesVideos/Mock Embroidered Tote2.jpeg"
-        }
-        width={360}
-        height={300}
-        alt="mockToteTwo"
-        id="mockToteTwo"
-      />
-      <img
-        src={
-          window.location.origin + "/ImagesVideos/Mock Embroidered Totes.jpeg"
-        }
-        width={360}
-        height={300}
-        alt="mockToteThree"
-        id="mockToteThree"
-      />
-      <br />
-      <p>
-        featured friends Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Illo, illum accusantium corrupti, architecto in mollitia
-        praesentium fuga, temporibus natus aut reiciendis harum voluptates ipsa
-        repellat assumenda suscipit perspiciatis officiis blanditiis?
+      <p id="productOne">Custom Handpainted Gifts</p>
+      <div className="top row mb-4">
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/Mock Embroidered Tote.jpeg"
+            className="img-fluid"
+            alt="Image 1"
+          />
+        </div>
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/Mock Embroidered Tote2.jpeg"
+            className="img-fluid"
+            alt="Image 2"
+          />
+        </div>
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/Mock Embroidered Totes.jpeg"
+            className="img-fluid"
+            alt="Image 3"
+          />
+        </div>
+      </div>
+      <p id="productTwo" style={{ margin: "40px" }}>
+        Featured Friend: Frankie (M), Golden Retriever, 3 years old. "Frankie's
+        best friend is the mail man - he'll wait by the door every morning."
       </p>
-      <img
-        src={window.location.origin + "/ImagesVideos/Goldie Picture.jpeg"}
-        width={400}
-        height={300}
-        alt="goldiePicture"
-        id="goldiePicture"
-      />
-      <img
-        src={window.location.origin + "/ImagesVideos/Goldie Drawing.jpeg"}
-        width={360}
-        height={300}
-        alt="goldieDrawing"
-        id="goldieDrawing"
-      />
-      <img
-        src={window.location.origin + "/ImagesVideos/White Tote.jpg"}
-        width={260}
-        height={300}
-        alt="goldieToteTest"
-        id="goldieToteTest"
-      />
-      <p>
-        featured friends Lorem ipsum dolor, sit amet consectetur adipisicing
-        elit. Illo, illum accusantium corrupti, architecto in mollitia
-        praesentium fuga, temporibus natus aut reiciendis harum voluptates ipsa
-        repellat assumenda suscipit perspiciatis officiis blanditiis?
-      </p>
+      <div className="bottom row mb-4">
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/Goldie Picture.jpeg"
+            className="img-fluid"
+            alt="Goldie Picture"
+          />
+        </div>
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/Goldie Drawing.jpeg"
+            className="img-fluid"
+            alt="Goldie Drawing"
+          />
+        </div>
+        <div className="col-md-4 image-container">
+          <img
+            src="/ImagesVideos/White Tote.jpg"
+            className="img-fluid"
+            alt="Goldie Tote Test"
+          />
+        </div>
+      </div>
     </div>
   );
 };
-
 export default Home;
