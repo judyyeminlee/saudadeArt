@@ -17,18 +17,18 @@ function App() {
   const [products] = useState([
     {
       name: "custom pet portrait",
-      price: 29.99,
+      price: 50,
       image_url: "/ImagesVideos/Mock Painting.jpeg",
     },
     {
       name: "custom canvas tote",
-      price: 99.99,
-      image_url: "/ImagesVideos/beigeTote.jpg",
+      price: 60,
+      image_url: "/ImagesVideos/canvasTotePlain.jpg",
     },
     {
       name: "custom canvas pouch",
-      price: 15.99,
-      image_url: "/ImagesVideos/Mock Painting2.jpeg",
+      price: 40,
+      image_url: "/ImagesVideos/canvasPouch.jpg",
     },
   ]);
 

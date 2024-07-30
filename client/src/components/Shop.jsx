@@ -15,24 +15,26 @@ const Shop = ({ products }) => {
             <div className="card mb-4">
               <img
                 src={product.image_url}
-                className="card-img-top"
+                className="productImages"
                 alt={product.name}
               />
-              <div className='card-body'>
-                <h5 className='card-title'>{product.name}</h5>
-                <p className='card-text'>${product.price}</p>
-                <Link
-                  to={`/product/${product.id}`}
-                  className='btn btn-primary me-2'
-                >
-                  View Details
-                </Link>
-                <button
-                  className='btn btn-secondary'
-                  onClick={() => addToCart(product)}
-                >
-                  Add to Cart
-                </button>
+              <div className="cardBody">
+                <h5 className="card-title">{product.name}</h5>
+                <p className="card-text">${product.price}</p>
+                <div className="d-flex flex-row justify-content-start">
+                  <Link
+                    to={`/product/${product.id}`}
+                    className="btn btn-primary me-2"
+                  >
+                    View Details
+                  </Link>
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() => addToCart(product)}
+                  >
+                    Add to Cart
+                  </button>
+                </div>
               </div>
             </div>
           </div>
