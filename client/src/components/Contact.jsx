@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <div>
-      <h1>let&apos;s talk</h1>
+      <h1 className="pageHeaderTwo">let&apos;s talk</h1>
       <p id="contactSentence">
         all questions and comments welcome! 
       </p>

@@ -8,7 +8,7 @@ const Shop = ({ products }) => {
 
   return (
     <div>
-      <h1>shop</h1>
+      <h1 className="pageHeaderTwo">shop</h1>
       <div className="row">
         {products.map((product, index) => (
           <div key={index} className="col-md-4">

@@ -1,85 +1,103 @@
 body {
-  background-color: rgb(220, 201, 182);
+  background-color: rgb(213, 210, 185);
   font-family: "Just For Fun";
 }
 
-.navBarLine {
+.topNavBar {
   overflow: hidden;
   position: sticky;
   top: 0;
   width: 100%;
+  color: white;
+  background-color: rgb(187, 185, 161);
+  font-family: 'Baskerville';
+}
+
+.topNavBarName {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: rgb(187, 185, 161);
+  font-family: 'NewYork';
+  font-size: 24px;
 }
 
 #productOne {
-  font-size: 24px;
+  font-size: 22px;
+  font-family: 'Baskerville';
   background-attachment: fixed;
   position: absolute;
   top: 150px;
 }
 
 #productTwo {
-  font-size: 24px;
+  font-size: 20px;
+  font-family: 'Baskerville';
   background-attachment: fixed;
   position: absolute;
   top: 550px;
 }
 
-#mockToteOne {
-  width: 390px;
-  height: 260px;
-  background-attachment: fixed;
-  position: absolute;
+/* #mockToteOne {
+  width: 387px;
+  height: 344px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
   border-radius: 25px;
-  top: 200px;
+  top: 220px;
 }
 
 #mockToteTwo {
-  width: auto;
-  height: 260px;
+  width: 387px;
+  height: 344px;
   border-radius: 25px;
-  background-attachment: fixed;
-  position: absolute;
-  left: 500px;
-  top: 200px;
+  display: flex;
+  justify-content: space-between;
+  left: 540px;
+  top: 220px;
 }
 
 #mockToteThree {
-  width: auto;
-  height: 260px;
+  width: 387px;
+  height: 344px;
   border-radius: 25px;
-  background-attachment: fixed;
-  position: absolute;
-  left: 815px;
-  top: 200px;
-}
+  display: flex;
+  justify-content: space-between;
+  left: 955px;
+  top: 220px;
+} */
 
 #goldiePicture {
-  width: auto;
-  height: 260px;
+  width: 290px;
+  height: auto;
+  margin-left: auto;
   background-attachment: fixed;
   position: absolute;
   border-radius: 25px;
-  top: 600px;
+  top: 680px;
 }
 
 #goldieDrawing {
-  width: auto;
-  height: 260px;
+  width: 290px;
+  height: auto;
+  margin-left: auto;
   border-radius: 25px;
   background-attachment: fixed;
   position: absolute;
-  left: 500px;
-  top: 600px;
+  top: 890px;
 }
 
 #goldieToteTest {
   width: auto;
-  height: 260px;
+  height: 450px;
   border-radius: 25px;
   background-attachment: fixed;
   position: absolute;
-  left: 845px;
-  top: 600px;
+  left: 455px;
+  top: 680px;
 }
 
 #aboutSection {
@@ -241,17 +259,18 @@ body {
 }
 
 .btn {
-  background-color: rgb(163, 145, 113);
-  border-color: rgb(163, 145, 113);
+  background-color: rgb(144, 143, 124);
+  border-color: rgb(144, 143, 124);
 }
 
 .btn:hover {
-  background-color: rgb(109, 76, 61);
+  background-color: rgb(109, 109, 94);
+  border-color: rgb(109, 109, 94);
   transition: 0.7s;
 }
 
 .btn:active {
-  background-color: rgb(114, 125, 113);
+  background-color: rgb(144, 143, 124);
 }
 
 #contactSentence {
@@ -266,22 +285,22 @@ button.accordionButton {
   font-size: 18px;
   padding: 12px;
   margin-bottom: 10px;
-  border: 0.5px solid rgb(163, 145, 113);
-  background-color: rgb(220, 201, 182);
+  border: 0.5px solid rgb(109, 109, 94);
+  background-color: rgb(213, 210, 185);
   border-radius: 25px;
 }
 
 .accordion-header {
-  background-color: rgb(220, 201, 182);
+  background-color: rgb(213, 210, 185);
   border: none;
 }
 
 div.accordion-body {
-  background-color: rgb(220, 201, 182);
+  background-color: rgb(213, 210, 185);
 }
 
 .accordionButton:hover {
-  background-color: rgb(163, 145, 113);
+  background-color: rgb(109, 109, 94);
 }
 
 .accordion-item {
@@ -294,11 +313,11 @@ div.accordion-body {
 }
 
 .form-control {
-  background-color: rgb(229, 222, 214);
+  background-color: rgb(250, 250, 239);
 }
 
 .form-control:active {
-  background-color: rgb(229, 222, 214);
+  background-color: rgb(250, 250, 239);
 }
 
 .productImages {
@@ -312,4 +331,24 @@ div.accordion-body {
 .cardBody {
   width: 300px;
   margin: 20px 20px;
+}
+
+.pageHeader {
+  font-family: "NewYork";
+  font-size: 80px; 
+  text-align: center;
+}
+
+.pageHeaderTwo {
+  font-family: "NewYork";
+  font-size: 60px; 
+  text-align: center;
+}
+
+.pageFooter {
+  font-family: "NewYork";
+}
+
+.pageFooterTwo {
+  font-family: "Baskerville";
 }

@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <div>
-      <h1>about saudade art</h1>
+      <h1 className="pageHeaderTwo">about saudade art</h1>
       <br />
       <div id="aboutSection">
         <p id="aboutSummary">
