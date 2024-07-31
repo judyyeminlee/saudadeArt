@@ -3,7 +3,7 @@
 const FAQComponent = () => {
   return (
     <div>
-      <h1>FAQ</h1>
+      <h1 className="pageHeaderTwo">FAQ</h1>
       <div className="accordion" id="faqAccordion">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">

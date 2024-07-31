@@ -4,28 +4,31 @@ import "./Home.css"; // Assuming you have a CSS file for custom styles
 const Home = () => {
   return (
     <div className="container mt-5">
-      <h1>saudade art</h1>
-      <p id="productOne">Custom Handpainted Gifts</p>
+      <h1 className="pageHeader">saudade art</h1>
+      <p id="productOne">custom handpainted gifts</p>
       <div className="top row mb-4">
         <div className="col-md-4 image-container">
           <img
-            src="/ImagesVideos/Mock Embroidered Tote.jpeg"
+            src="/ImagesVideos/mockCustomTote.jpg"
             className="img-fluid"
-            alt="Image 1"
+            alt="mockToteOne"
+            id="mockToteOne"
           />
         </div>
         <div className="col-md-4 image-container">
           <img
-            src="/ImagesVideos/Mock Embroidered Tote2.jpeg"
+            src="/ImagesVideos/mockCustomTote2.jpg"
             className="img-fluid"
-            alt="Image 2"
+            alt="mockToteTwo"
+            id="mockToteTwo"
           />
         </div>
         <div className="col-md-4 image-container">
           <img
-            src="/ImagesVideos/Mock Embroidered Totes.jpeg"
+            src="/ImagesVideos/mockCustomTotes.jpg"
             className="img-fluid"
-            alt="Image 3"
+            alt="mockToteThree"
+            id="mockToteThree"
           />
         </div>
       </div>
@@ -39,6 +42,7 @@ const Home = () => {
             src="/ImagesVideos/Goldie Picture.jpeg"
             className="img-fluid"
             alt="Goldie Picture"
+            id="goldiePicture"
           />
         </div>
         <div className="col-md-4 image-container">
@@ -46,6 +50,7 @@ const Home = () => {
             src="/ImagesVideos/Goldie Drawing.jpeg"
             className="img-fluid"
             alt="Goldie Drawing"
+            id="goldieDrawing"
           />
         </div>
         <div className="col-md-4 image-container">
@@ -53,6 +58,7 @@ const Home = () => {
             src="/ImagesVideos/White Tote.jpg"
             className="img-fluid"
             alt="Goldie Tote Test"
+            id="goldieToteTest"
           />
         </div>
       </div>

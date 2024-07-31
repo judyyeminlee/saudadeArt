@@ -1,7 +1,7 @@
 const Work = () => {
   return (
     <div>
-      <h1>work</h1>
+      <h1 className="pageHeaderTwo">work</h1>
       {/* <button type='button' className='btn btn-link'>
         Pen
       </button> */}
