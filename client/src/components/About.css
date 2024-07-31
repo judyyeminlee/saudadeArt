@@ -1,0 +1,19 @@
+/* #vanGogh {
+    scroll-margin-right: 20px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 100px;
+  } */
+
+#aboutSection {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #aboutSummary {
+    font-size: 20px;
+    width: 600px;
+    float: left;
+    margin-right: 200px;
+    margin-bottom: 50px;
+  }

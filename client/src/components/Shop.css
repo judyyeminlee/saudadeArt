@@ -1,0 +1,17 @@
+#productImage {
+  width: 60%;
+  height: auto;
+}
+
+.productImages {
+  height: 354px;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 12px auto;
+}
+
+.cardBody {
+  width: 300px;
+  margin: 20px 20px;
+}

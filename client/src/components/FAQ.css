@@ -1,0 +1,25 @@
+button.accordionButton {
+    font-size: 18px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(109, 109, 94);
+    background-color: rgb(213, 210, 185);
+    border-radius: 25px;
+  }
+  
+  .accordion-header {
+    background-color: rgb(213, 210, 185);
+    border: none;
+  }
+  
+  div.accordion-body {
+    background-color: rgb(213, 210, 185);
+  }
+  
+  .accordionButton:hover {
+    background-color: rgb(109, 109, 94);
+  }
+  
+  .accordion-item {
+    border: none;
+  }

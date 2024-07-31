@@ -19,3 +19,134 @@
 .btn-link:hover {
   text-decoration: underline;
 }
+
+#videoOne {
+  position: absolute;
+  height: 500px;
+  border-radius: 15px;
+}
+
+#videoTwo {
+  position: absolute;
+  height: 500px;
+  left: 500px;
+  border-radius: 15px;
+}
+
+#mushroomWip3 {
+  width: 400px;
+  height: 360px;
+  position: absolute;
+  top: 700px;
+  border-radius: 15px;
+}
+
+#mushroomWip {
+  width: 320px;
+  height: 340px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 950px;
+  left: 330px;
+  border-radius: 15px;
+}
+
+#mushroomWip2 {
+  width: 300px;
+  height: 420px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 670px;
+  left: 610px;
+  border-radius: 15px;
+}
+
+#mushroomFinal {
+  width: 425px;
+  height: 590px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 820px;
+  left: 860px;
+  border-radius: 15px;
+}
+
+#eyes {
+  width: 700px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1440px;
+  right: 20px;
+  border-radius: 15px;
+}
+
+#daydreams {
+  width: 480px;
+  height: 620px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1300px;
+  left: 89px;
+  border-radius: 15px;
+}
+
+#pandemic {
+  width: 440px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1930px;
+  left: 90px;
+  border-radius: 15px;
+}
+
+#tattoo {
+  width: 400px;
+  height: 520px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 1980px;
+  left: 550px;
+  border-radius: 15px;
+}
+
+#nudeSketches {
+  width: 550px;
+  height: 420px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 2460px;
+  left: 90px;
+  border-radius: 15px;
+}
+
+#vDay {
+  width: 550px;
+  height: 280px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 2480px;
+  left: 660px;
+  border-radius: 15px;
+}
+
+#tigerTote {
+  width: 480px;
+  height: 490px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 2900px;
+  left: 90px;
+  border-radius: 15px;
+}
+
+#tigerToteZoom {
+  width: 550px;
+  height: 400px;
+  background-attachment: fixed;
+  position: absolute;
+  top: 2900px;
+  left: 590px;
+  border-radius: 15px;
+}
