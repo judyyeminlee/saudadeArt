@@ -1,6 +1,27 @@
 .navBarLine {
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.topNavBar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: rgb(187, 185, 161);
+  /* font-family: 'Baskerville'; */
+}
+
+#headerLogo {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: rgb(187, 185, 161);
+  font-family: "NewYork";
+  font-size: 24px;
+}

@@ -7,11 +7,55 @@
 }
 
 .top {
-  margin: 40px 0 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
   padding: 20px;
 }
 
 .bottom {
-  margin: 80px 0 60px;
+  /* margin: 0 60px; */
   padding: 20px;
+}
+
+#goldiePicture {
+  width: 290px;
+  height: auto;
+  /* margin-left: auto;
+  background-attachment: fixed;
+  position: absolute;
+  border-radius: 25px;
+  top: 680px; */
+}
+
+#goldieDrawing {
+  width: 290px;
+  height: auto;
+  /* margin-left: auto; */
+  /* border-radius: 25px; */
+  /* background-attachment: fixed; */
+  /* position: absolute; */
+  /* top: 890px; */
+}
+
+#goldieToteTest {
+  width: auto;
+  height: 450px;
+  /* border-radius: 25px;
+  background-attachment: fixed;
+  position: absolute;
+  left: 455px;
+  top: 680px; */
+}
+
+.pTop {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 20px;
+}
+
+.pBottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 20px;
 }

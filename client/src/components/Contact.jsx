@@ -1,4 +1,5 @@
-// src/components/Contact.jsx
+import "./Contact.css";
+
 const Contact = () => {
   return (
     <div>

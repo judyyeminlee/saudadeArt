@@ -1,3 +1,5 @@
+import "./Pouch.css";
+
 const pouch = () => {
   return (
     <div>

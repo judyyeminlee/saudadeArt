@@ -1,3 +1,5 @@
+import "./PetPortrait.css";
+
 const petPortrait = () => {
   return (
     <div>

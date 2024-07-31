@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
+import "./Header.css";
 
 function Header() {
   const { cart, clearCart } = useContext(CartContext);
@@ -9,7 +10,7 @@ function Header() {
     <nav className="topNavBar navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <div className="topNavBarName">saudade art</div>
+          <div id="headerLogo">saudade art</div>
         </Link>
         <button
           className="navbar-toggler"
