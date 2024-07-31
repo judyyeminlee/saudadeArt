@@ -4,9 +4,17 @@ import "./Home.css"; // Assuming you have a CSS file for custom styles
 const Home = () => {
   return (
     <div className="container mt-5">
-      <h1 className="pageHeader">saudade art</h1>
-      <p id="productOne">custom handpainted gifts</p>
-      <div className="top row mb-4">
+      <div className="row mb-4">
+        <div className="col-md-12">
+          <h1>saudade art</h1>
+        </div>
+      </div>
+      <div className="row mb-4">
+        <div className="col-md-12">
+          <p className="pTop">Custom Handpainted Gifts</p>
+        </div>
+      </div>
+      <div className="row mt-1 top">
         <div className="col-md-4 image-container">
           <img
             src="/ImagesVideos/mockCustomTote.jpg"
@@ -32,10 +40,15 @@ const Home = () => {
           />
         </div>
       </div>
-      <p id="productTwo" style={{ margin: "40px" }}>
-        Featured Friend: Frankie (M), Golden Retriever, 3 years old. "Frankie's
-        best friend is the mail man - he'll wait by the door every morning."
-      </p>
+      <div className="row">
+        <div className="col-md-12 d-flex align-items-center">
+          <p className="pBottom">
+            Featured Friend: Frankie (M), Golden Retriever, 3 years old.
+            Frankie&apos;s best friend is the mail man - he&apos;ll wait by the
+            door every morning.
+          </p>
+        </div>
+      </div>
       <div className="bottom row mb-4">
         <div className="col-md-4 image-container">
           <img

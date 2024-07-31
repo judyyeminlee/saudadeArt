@@ -1,5 +1,5 @@
-// src/components/FAQ.jsx
-// Remove the duplicate declaration of FAQComponent
+import "./FAQ.css";
+
 const FAQComponent = () => {
   return (
     <div>

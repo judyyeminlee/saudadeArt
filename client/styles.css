@@ -1,27 +1,6 @@
 body {
   background-color: rgb(213, 210, 185);
-  font-family: "Just For Fun";
-}
-
-.topNavBar {
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  color: white;
-  background-color: rgb(187, 185, 161);
-  font-family: 'Baskerville';
-}
-
-.topNavBarName {
-  overflow: hidden;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  color: white;
-  background-color: rgb(187, 185, 161);
-  font-family: 'NewYork';
-  font-size: 24px;
+  font-family: "Baskerville";
 }
 
 #productOne {
@@ -38,66 +17,6 @@ body {
   background-attachment: fixed;
   position: absolute;
   top: 550px;
-}
-
-/* #mockToteOne {
-  width: 387px;
-  height: 344px;
-  margin-left: auto;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 25px;
-  top: 220px;
-}
-
-#mockToteTwo {
-  width: 387px;
-  height: 344px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: space-between;
-  left: 540px;
-  top: 220px;
-}
-
-#mockToteThree {
-  width: 387px;
-  height: 344px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: space-between;
-  left: 955px;
-  top: 220px;
-} */
-
-#goldiePicture {
-  width: 290px;
-  height: auto;
-  margin-left: auto;
-  background-attachment: fixed;
-  position: absolute;
-  border-radius: 25px;
-  top: 680px;
-}
-
-#goldieDrawing {
-  width: 290px;
-  height: auto;
-  margin-left: auto;
-  border-radius: 25px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 890px;
-}
-
-#goldieToteTest {
-  width: auto;
-  height: 450px;
-  border-radius: 25px;
-  background-attachment: fixed;
-  position: absolute;
-  left: 455px;
-  top: 680px;
 }
 
 #aboutSection {
@@ -343,12 +262,4 @@ div.accordion-body {
   font-family: "NewYork";
   font-size: 60px; 
   text-align: center;
-}
-
-.pageFooter {
-  font-family: "NewYork";
-}
-
-.pageFooterTwo {
-  font-family: "Baskerville";
 }

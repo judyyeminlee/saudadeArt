@@ -1,4 +1,5 @@
-// src/components/About.jsx
+import "./About.css";
+
 const About = () => {
   return (
     <div>

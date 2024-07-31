@@ -1,3 +1,5 @@
+import "./Tote.css";
+
 const tote = () => {
     return (
       <div>

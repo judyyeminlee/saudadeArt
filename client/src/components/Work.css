@@ -1,0 +1,21 @@
+/* Ensure the work container takes up full height of the viewport */
+.work-container {
+  min-height: 100vh;
+}
+.content {
+  padding-bottom: 50px; /* Ensure space at the bottom for the footer */
+}
+.img-fluid {
+  margin-bottom: 10px;
+}
+#image-container {
+  overflow: hidden;
+}
+.btn-link {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
