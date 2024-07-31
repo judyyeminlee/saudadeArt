@@ -3,178 +3,16 @@ body {
   font-family: "Baskerville";
 }
 
-#productOne {
-  font-size: 22px;
-  font-family: 'Baskerville';
-  background-attachment: fixed;
-  position: absolute;
-  top: 150px;
+.pageHeader {
+  font-family: "NewYork";
+  font-size: 80px; 
+  text-align: center;
 }
 
-#productTwo {
-  font-size: 20px;
-  font-family: 'Baskerville';
-  background-attachment: fixed;
-  position: absolute;
-  top: 550px;
-}
-
-#aboutSection {
-  display: flex;
-  justify-content: center;
-}
-
-#aboutSummary {
-  font-size: 23px;
-  width: 600px;
-  float: left;
-  margin-right: 200px;
-  margin-bottom: 50px;
-}
-
-#vanGogh {
-  scroll-margin-right: 20px;
-  width: 300px;
-  height: auto;
-  border-radius: 25px;
-  margin-bottom: 100px;
-}
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#videoOne {
-  position: absolute;
-  height: 500px;
-  border-radius: 15px;
-}
-
-#videoTwo {
-  position: absolute;
-  height: 500px;
-  left: 500px;
-  border-radius: 15px;
-}
-
-#mushroomWip3 {
-  width: 400px;
-  height: 360px;
-  position: absolute;
-  top: 700px;
-  border-radius: 15px;
-}
-
-#mushroomWip {
-  width: 320px;
-  height: 340px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 950px;
-  left: 330px;
-  border-radius: 15px;
-}
-
-#mushroomWip2 {
-  width: 300px;
-  height: 420px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 670px;
-  left: 610px;
-  border-radius: 15px;
-}
-
-#mushroomFinal {
-  width: 425px;
-  height: 590px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 820px;
-  left: 860px;
-  border-radius: 15px;
-}
-
-#eyes {
-  width: 700px;
-  height: 520px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 1440px;
-  right: 20px;
-  border-radius: 15px;
-}
-
-#daydreams {
-  width: 480px;
-  height: 620px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 1300px;
-  left: 89px;
-  border-radius: 15px;
-}
-
-#pandemic {
-  width: 440px;
-  height: 520px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 1930px;
-  left: 90px;
-  border-radius: 15px;
-}
-
-#tattoo {
-  width: 400px;
-  height: 520px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 1980px;
-  left: 550px;
-  border-radius: 15px;
-}
-
-#nudeSketches {
-  width: 550px;
-  height: 420px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 2460px;
-  left: 90px;
-  border-radius: 15px;
-}
-
-#vDay {
-  width: 550px;
-  height: 280px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 2480px;
-  left: 660px;
-  border-radius: 15px;
-}
-
-#tigerTote {
-  width: 480px;
-  height: 490px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 2900px;
-  left: 90px;
-  border-radius: 15px;
-}
-
-#tigerToteZoom {
-  width: 550px;
-  height: 400px;
-  background-attachment: fixed;
-  position: absolute;
-  top: 2900px;
-  left: 590px;
-  border-radius: 15px;
+.pageHeaderTwo {
+  font-family: "NewYork";
+  font-size: 60px; 
+  text-align: center;
 }
 
 .btn {
@@ -192,74 +30,12 @@ body {
   background-color: rgb(144, 143, 124);
 }
 
-#contactSentence {
-  font-size: 23px;
-}
 
-#contactForm {
-  font-size: 20px;
-}
 
-button.accordionButton {
-  font-size: 18px;
-  padding: 12px;
-  margin-bottom: 10px;
-  border: 0.5px solid rgb(109, 109, 94);
-  background-color: rgb(213, 210, 185);
-  border-radius: 25px;
-}
 
-.accordion-header {
-  background-color: rgb(213, 210, 185);
-  border: none;
-}
-
-div.accordion-body {
-  background-color: rgb(213, 210, 185);
-}
-
-.accordionButton:hover {
-  background-color: rgb(109, 109, 94);
-}
-
-.accordion-item {
-  border: none;
-}
-
-#productImage {
-  width: 60%;
-  height: auto;
-}
-
-.form-control {
-  background-color: rgb(250, 250, 239);
-}
-
-.form-control:active {
-  background-color: rgb(250, 250, 239);
-}
-
-.productImages {
-  height: 354px;
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: 12px auto;
-}
-
-.cardBody {
-  width: 300px;
-  margin: 20px 20px;
-}
-
-.pageHeader {
-  font-family: "NewYork";
-  font-size: 80px; 
-  text-align: center;
-}
-
-.pageHeaderTwo {
-  font-family: "NewYork";
-  font-size: 60px; 
-  text-align: center;
+/* 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }

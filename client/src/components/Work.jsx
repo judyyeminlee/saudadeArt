@@ -10,7 +10,7 @@ const Work = () => {
     <div className="container" ref={topRef}>
       <div className="row mt-3">
         <div className="col-12">
-          <h1>Work</h1>
+          <h1 className="pageHeaderTwo">Work</h1>
         </div>
       </div>
       <div className="row mt-3">
